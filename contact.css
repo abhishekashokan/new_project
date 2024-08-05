@@ -1,0 +1,197 @@
+/* styles-contact.css */
+body {
+  background-color: #eaeaea;
+  background-image: url(imgggg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+    background-color: #777;
+}
+
+section {
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+  
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.ex1 {
+  color: #eaeaea;
+}
+
+
+
+
+
+
+
+a.ex1:hover, a.ex1:active {
+  color: #0c77f9
+  
+  
+}
+
+
+
+
+
+
+
+h1 {
+    display: block;
+    font-size: 200%;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: #808080;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50%, 50%);
+    top: 30%;
+      left: 50%;
+    width: 750px;
+    height: 20px;
+    padding: 5px;
+}
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the list items */
+  }
+
+  li {
+    margin: 0 15px; /* Add space between list items */
+  }
+
+  a {
+    font-size: 20px; /* Increase font size */
+    padding: 20px 20px; /* Increase clickable area */
+    text-decoration: none; /* Remove underline */
+    color: #000000; /* Change link color */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  a:hover {
+    color:#f7d309/* Change color on hover */
+  }
+
+
+  li {
+    display: inline-block;
+    margin-right: 60px; /* add spacing between items */
+  }
+
+
+main {
+    text-align: left;
+}
+
+#list {
+    display: none;
+  }
+
+section {
+    padding: 50px 20px;
+}
+
+
+
+::placeholder {
+  color: rgb(82, 80, 80);
+  font-style:normal;
+  font-weight: 400;
+}
+
+
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: hwb(51 4% 3%);
+  
+}
+
+
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 622px;
+}
+
+button:hover {
+  background-color: #218838;
+  
+}
+
+#response {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgb(249, 251, 249);
+  text-align: center;
+  
+}

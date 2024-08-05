@@ -1,0 +1,132 @@
+
+body {
+    background-image :url(imgggg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+header {
+    background-color: #808080;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50%, 50%);
+    top: 30%;
+      left: 50%;
+    width: 750px;
+    height: 20px;
+    padding: 5px;
+}
+
+h1 {
+    display: block;
+    font-size: 200%;
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    font-size: 24px; /* Set the font size */
+    color: #f8f8f8; /* Set the text color */
+    font-style: normal;
+    
+    
+  }
+
+  p1 {
+    font-size: 22px; /* Set the font size */
+    color: #f8f8f8; /* Set the text color */
+    line-height: 1.6; 
+    font-style: unset;
+ 
+    
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the list items */
+  }
+
+  li {
+    margin: 0 15px; /* Add space between list items */
+  }
+
+  a {
+    font-size: 20px; /* Increase font size */
+    padding: 20px 20px; /* Increase clickable area */
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Change link color */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  a:hover {
+    color:#f7d309/* Change color on hover */
+  }
+
+
+  li {
+    display: inline-block;
+    margin-right: 60px; /* add spacing between items */
+  }
+
+
+main {
+    text-align: center;
+}
+
+#list {
+    display: none;
+  }
+
+section {
+    padding: 50px 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row; /* Makes children stack vertically */
+    border: 0px;
+    padding: 30px;
+    margin: auto;
+    height: 500px;
+    width: 1000px;
+    
+}
+
+.article-header {
+    background-color: #f0f0f0;
+    padding: 0px;
+    margin-bottom: 10px; /* Adds space between the outer and nested boxes */
+    background-image:url(aa.jpeg);
+    width: 600px;
+    
+}
+
+.nested-box {
+    border: 10px;
+    padding: 10px;
+}
+
+.nested-header {
+    background-color: #e0e0e0;
+    padding: 100px;
+}
+
+
+.spaced-paragraph {
+    margin-top: 20px; /* Adds space before the paragraph */
+}
+
+.spaced-heading {
+    margin-top: 30px; /* Adds space before the heading */
+    
+}
+
+
